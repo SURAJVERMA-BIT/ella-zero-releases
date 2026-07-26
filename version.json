@@ -1,5 +1,8 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "notes": "Working offline voice (STT + TTS), self-updating.",
+  "published_at": "2026-07-26T12:50:14Z",
   "download_url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/latest",
-  "notes": "Initial release"
+  "manifest_url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.1/manifest-1.0.1.json",
+  "delta": {}
 }
