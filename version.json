@@ -1,7 +1,7 @@
 {
   "version": "1.0.2",
-  "notes": "ELLA Zero 1.0.2 - offline voice (STT+TTS), self-updating, resilient onboarding.",
-  "published_at": "PUT_UTC_TIME_HERE",
+  "notes": "ELLA Zero 1.0.2 — offline voice (STT+TTS), self-updating, resilient onboarding.",
+  "published_at": "2026-07-27T07:04:55Z",
   "download_url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/latest",
   "manifest_url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.2/manifest-1.0.2.json",
   "delta": {}
