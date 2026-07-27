@@ -1,40 +1,36 @@
 {
-  "version": "1.0.3",
-  "notes": "Markets rates load again, memory and tool selection are fixed, and updates now show you what is changing before you install.",
+  "version": "1.0.5",
+  "notes": "Tools and memory work properly now. Cleaner update screen, and a real way to quit the app.",
   "changelog": {
-    "headline": "What's new in 1.0.3",
+    "headline": "What's new in 1.0.5",
     "sections": [
       {
-        "title": "Markets",
+        "title": "Tools and memory",
         "items": [
-          "Live rates are back. Indian indices, currencies and commodities now load on the Markets page, not just crypto.",
-          "Prices refresh on their own while the page is open."
+          "Notes, reminders, tasks and the rest actually run now. Before this, some requests would get a friendly reply without anything really happening behind it.",
+          "Memory recall is back to full strength, so what you tell it stays found."
         ]
       },
       {
-        "title": "Memory and tools",
+        "title": "Around the app",
         "items": [
-          "It remembers what you tell it again. Recall was falling back to a basic word match before, so older details went missing.",
-          "It now picks the right tool for what you ask instead of guessing, so writing a note, adding a holding or checking a price lands the first time."
-        ]
-      },
-      {
-        "title": "Updates",
-        "items": [
-          "Before you install, you now see exactly what is changing, grouped by area, with a plain note on what happens to your data.",
-          "You can turn on automatic updates in Settings, under System, so new versions install quietly overnight.",
-          "The update notice stays until you close it, and only shows again for a newer version."
+          "Update notices moved out of the small floating window. They now sit in the corner of the full app, and only when it is open.",
+          "There is a quit button in the top bar and in Settings. Closing the app now really closes it, with no leftovers in Task Manager.",
+          "The About section in Settings shows real details instead of placeholder text."
         ]
       }
     ],
     "data_safety": "Your chats, memory, notes, portfolio and settings stay exactly as they are. This update only replaces the app's own program files. Nothing you have created is touched or deleted."
   },
-  "published_at": "2026-07-27T12:00:00Z",
+  "published_at": "2026-07-28T06:00:00Z",
   "download_url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/latest",
-  "manifest_url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.3/manifest-1.0.3.json",
-  "full_url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.3/full-1.0.3.zip",
-  "full_size": 1822977520,
-    "delta": {
-    "1.0.2": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.3/delta-1.0.2-to-1.0.3.zip"
+  "manifest_url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.5/manifest-1.0.5.json",
+  "full_url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.5/full-1.0.5.zip",
+  "full_size": 1824059509,
+  "delta": {
+    "1.0.4": {
+      "url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.5/delta-1.0.4-to-1.0.5.zip",
+      "size": 109755875
+    }
   }
 }
