@@ -1,36 +1,41 @@
 {
-  "version": "1.0.5",
-  "notes": "Tools and memory work properly now. Cleaner update screen, and a real way to quit the app.",
+  "version": "1.0.6",
+  "notes": "Notes, reminders and tasks actually run now. The app closes properly, updates leave nothing behind, and the update screen lives in Settings.",
   "changelog": {
-    "headline": "What's new in 1.0.5",
+    "headline": "What's new in 1.0.6",
     "sections": [
       {
         "title": "Tools and memory",
         "items": [
-          "Notes, reminders, tasks and the rest actually run now. Before this, some requests would get a friendly reply without anything really happening behind it.",
-          "Memory recall is back to full strength, so what you tell it stays found."
+          "Notes, reminders, tasks, portfolio and the rest actually run now. The installed app had been shipping without its tool list, so it would reply as if it had done something without anything happening.",
+          "Memory works properly again, since it relies on those same tools."
         ]
       },
       {
-        "title": "Around the app",
+        "title": "Closing and updating",
         "items": [
-          "Update notices moved out of the small floating window. They now sit in the corner of the full app, and only when it is open.",
-          "There is a quit button in the top bar and in Settings. Closing the app now really closes it, with no leftovers in Task Manager.",
-          "The About section in Settings shows real details instead of placeholder text."
+          "There is a quit button in the top bar and in Settings. Closing the app now really closes it, with nothing left running in the background.",
+          "Updates no longer leave old copies of the app running after they finish.",
+          "The error box that appeared after an update is gone."
+        ]
+      },
+      {
+        "title": "Settings",
+        "items": [
+          "Software update has its own section in Settings, with what changed, the download size and an automatic update switch.",
+          "About shows real details instead of placeholder text."
         ]
       }
     ],
     "data_safety": "Your chats, memory, notes, portfolio and settings stay exactly as they are. This update only replaces the app's own program files. Nothing you have created is touched or deleted."
   },
-  "published_at": "2026-07-28T06:00:00Z",
+  "published_at": "2026-07-28T13:00:00Z",
   "download_url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/latest",
-  "manifest_url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.5/manifest-1.0.5.json",
-  "full_url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.5/full-1.0.5.zip",
-  "full_size": 1824059509,
+  "manifest_url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.6/manifest-1.0.6.json",
   "delta": {
-    "1.0.4": {
-      "url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.5/delta-1.0.4-to-1.0.5.zip",
-      "size": 109755875
+    "1.0.5": {
+      "url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.6/delta-1.0.5-to-1.0.6.zip",
+      "size": 108665627
     }
   }
 }
