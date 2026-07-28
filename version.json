@@ -1,41 +1,33 @@
 {
-  "version": "1.0.6",
-  "notes": "Notes, reminders and tasks actually run now. The app closes properly, updates leave nothing behind, and the update screen lives in Settings.",
+  "version": "1.0.7",
+  "notes": "Memory saves properly now, and the app closes when you tell it to.",
   "changelog": {
-    "headline": "What's new in 1.0.6",
+    "headline": "What's new in 1.0.7",
     "sections": [
       {
-        "title": "Tools and memory",
+        "title": "Memory",
         "items": [
-          "Notes, reminders, tasks, portfolio and the rest actually run now. The installed app had been shipping without its tool list, so it would reply as if it had done something without anything happening.",
-          "Memory works properly again, since it relies on those same tools."
+          "It remembers things you tell it again. The installed app was missing the file that tells it what is worth keeping, so every single thing you said was quietly dropped.",
+          "Favourites, ratings, people, plans, all of it sticks now."
         ]
       },
       {
-        "title": "Closing and updating",
+        "title": "Closing the app",
         "items": [
-          "There is a quit button in the top bar and in Settings. Closing the app now really closes it, with nothing left running in the background.",
-          "Updates no longer leave old copies of the app running after they finish.",
-          "The error box that appeared after an update is gone."
-        ]
-      },
-      {
-        "title": "Settings",
-        "items": [
-          "Software update has its own section in Settings, with what changed, the download size and an automatic update switch.",
-          "About shows real details instead of placeholder text."
+          "Quit actually closes everything, including the floating dot. Nothing is left running in the background.",
+          "Old copies no longer keep floating on screen after an update."
         ]
       }
     ],
     "data_safety": "Your chats, memory, notes, portfolio and settings stay exactly as they are. This update only replaces the app's own program files. Nothing you have created is touched or deleted."
   },
-  "published_at": "2026-07-28T13:00:00Z",
+  "published_at": "2026-07-28T21:30:00Z",
   "download_url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/latest",
-  "manifest_url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.6/manifest-1.0.6.json",
+  "manifest_url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.7/manifest-1.0.7.json",
   "delta": {
-    "1.0.5": {
-      "url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.6/delta-1.0.5-to-1.0.6.zip",
-      "size": 108665627
+    "1.0.6": {
+      "url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.7/delta-1.0.6-to-1.0.7.zip",
+      "size": 108615327
     }
   }
 }
