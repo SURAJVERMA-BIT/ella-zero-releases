@@ -1,33 +1,44 @@
 {
-  "version": "1.0.8",
-  "notes": "Fixes the real reason quitting and other fixes were not sticking, plus a real icon and a proper installer.",
+  "version": "1.0.9",
+  "notes": "Chess now has a real engine and real difficulty. Fixes a memory-correction bug that could erase a fact instead of fixing it, adds a confirmation step before renaming her, and fixes the desktop and browser icons.",
   "changelog": {
-    "headline": "What's new in 1.0.8",
+    "headline": "What's new in 1.0.9",
     "sections": [
       {
-        "title": "The update process itself",
+        "title": "Chess",
         "items": [
-          "Found and fixed why some earlier fixes did not seem to take. A leftover process from before could block the update from replacing the app's main file, even though the update looked successful. That block is gone now.",
-          "Quitting the app fully closes it, and nothing gets left running."
+          "The chess engine was never actually shipping, so difficulty settings did nothing. There's a real engine now, and the level you pick actually changes how she plays.",
+          "Fixed her mixing up which pieces are whose mid-game."
+        ]
+      },
+      {
+        "title": "Memory",
+        "items": [
+          "Correcting a fact she got wrong could erase it entirely instead of fixing it. Corrections now keep the fact, just corrected."
+        ]
+      },
+      {
+        "title": "Naming",
+        "items": [
+          "Renaming her now asks first and waits for confirmation, instead of acting on the first thing that sounds like a new name."
         ]
       },
       {
         "title": "Look and feel",
         "items": [
-          "ELLA Zero has a real icon now, on the desktop, in the taskbar, and everywhere else.",
-          "The installer itself is redesigned. No more generic setup wizard."
+          "Fixed the desktop icon and the in-app browser icon to show ELLA Zero's actual mark."
         ]
       }
     ],
     "data_safety": "Your chats, memory, notes, portfolio and settings stay exactly as they are. This update only replaces the app's own program files. Nothing you have created is touched or deleted."
   },
-  "published_at": "2026-07-31T12:00:00Z",
+  "published_at": "2026-08-01T12:00:00Z",
   "download_url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/latest",
-  "manifest_url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.8/manifest-1.0.8.json",
+  "manifest_url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.9/manifest-1.0.9.json",
   "delta": {
-    "1.0.7": {
-      "url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.8/delta-1.0.7-to-1.0.8.zip",
-      "size": 108624693
+    "1.0.8": {
+      "url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.9/delta-1.0.8-to-1.0.9.zip",
+      "size": 185259230
     }
   }
 }
