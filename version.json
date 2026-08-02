@@ -1,57 +1,46 @@
 {
-  "version": "1.0.9",
-  "notes": "Fixes the real reason updates weren't sticking, adds a startup splash and a proper single-instance lock, gives chess a real engine and real difficulty, and fixes a memory-correction bug plus renaming safety.",
+  "version": "1.0.10",
+  "notes": "Chess teacher mode actually teaches now, search is more accurate and time-aware, and when she says she'll check something she actually does it.",
   "changelog": {
-    "headline": "What's new in 1.0.9",
+    "headline": "What's new in 1.0.10",
     "sections": [
       {
-        "title": "Updates",
+        "title": "She follows through now",
         "items": [
-          "Found and fixed the real reason updates weren't sticking: the update process was failing completely on every attempt, silently, while still relaunching the app so it looked like it worked."
-        ]
-      },
-      {
-        "title": "Startup",
-        "items": [
-          "The app now shows something on screen the instant you click it, instead of a stretch of silence while everything loads.",
-          "Clicking the icon again while it's already open just brings the running app forward instead of opening a second copy."
+          "When she says \"let me check that\", she actually goes and checks, and answers in the same breath. Before, that promise sometimes went nowhere and you had to ask again."
         ]
       },
       {
         "title": "Chess",
         "items": [
-          "The chess engine wasn't actually shipping, so the difficulty slider did nothing. There's a real engine now.",
-          "Fixed her mixing up which pieces are whose mid-game."
+          "Teacher mode explains her thinking on every move instead of staying quiet most of the game, and now suggests your best next move with the reason behind it.",
+          "Fewer mix-ups about whose piece is whose."
         ]
       },
       {
-        "title": "Memory",
+        "title": "Search",
         "items": [
-          "Correcting a fact she got wrong could erase it entirely instead of fixing it. Corrections now keep the fact, just corrected."
+          "She checks how old an article is before telling you something is happening now, so a protest that ended weeks ago is no longer reported as current.",
+          "Filtered out junk results that came through as jumbled run-on titles.",
+          "Slow pages get a bit longer to load, so answers are based on the full article more often."
         ]
       },
       {
-        "title": "Naming",
+        "title": "Awareness",
         "items": [
-          "Renaming her now asks first and waits for confirmation, instead of acting on the first thing that sounds like a new name."
-        ]
-      },
-      {
-        "title": "Look and feel",
-        "items": [
-          "Fixed the desktop icon and the in-app browser icon to show ELLA Zero's actual mark."
+          "She no longer thinks you're still on a page you already left."
         ]
       }
     ],
     "data_safety": "Your chats, memory, notes, portfolio and settings stay exactly as they are. This update only replaces the app's own program files. Nothing you have created is touched or deleted."
   },
-  "published_at": "2026-08-01T18:00:00Z",
+  "published_at": "2026-08-02T18:30:00Z",
   "download_url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/latest",
-  "manifest_url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.9/manifest-1.0.9.json",
+  "manifest_url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.10/manifest-1.0.10.json",
   "delta": {
-    "1.0.8": {
-      "url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.9/delta-1.0.8-to-1.0.9.zip",
-      "size": 185262613
+    "1.0.9": {
+      "url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.10/delta-1.0.9-to-1.0.10.zip",
+      "size": 108615846
     }
   }
 }
