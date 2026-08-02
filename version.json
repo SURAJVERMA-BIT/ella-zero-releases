@@ -1,46 +1,35 @@
 {
-  "version": "1.0.10",
-  "notes": "Chess teacher mode actually teaches now, search is more accurate and time-aware, and when she says she'll check something she actually does it.",
+  "version": "1.0.11",
+  "notes": "Fixes the reason updates kept failing silently. Needs one manual install; updates after this work in the app.",
   "changelog": {
-    "headline": "What's new in 1.0.10",
+    "headline": "What's new in 1.0.11",
     "sections": [
       {
-        "title": "She follows through now",
+        "title": "Updates actually work now",
         "items": [
-          "When she says \"let me check that\", she actually goes and checks, and answers in the same breath. Before, that promise sometimes went nowhere and you had to ask again."
+          "Updates were failing silently every time — the app would download, restart, and come back on the old version. The space in the \"ELLA Zero\" folder name was breaking the command that copies new files into place.",
+          "This version needs a manual install once, because the version you're on can't fix its own updater. After that, updates happen in the app."
         ]
       },
       {
-        "title": "Chess",
+        "title": "Also included, from 1.0.10",
         "items": [
-          "Teacher mode explains her thinking on every move instead of staying quiet most of the game, and now suggests your best next move with the reason behind it.",
-          "Fewer mix-ups about whose piece is whose."
-        ]
-      },
-      {
-        "title": "Search",
-        "items": [
-          "She checks how old an article is before telling you something is happening now, so a protest that ended weeks ago is no longer reported as current.",
-          "Filtered out junk results that came through as jumbled run-on titles.",
-          "Slow pages get a bit longer to load, so answers are based on the full article more often."
-        ]
-      },
-      {
-        "title": "Awareness",
-        "items": [
+          "Chess teacher mode explains every move and suggests your best next one.",
+          "Search checks how old an article is before calling something current, and filters out junk results.",
+          "When she says she'll check something, she actually does it and answers in the same breath.",
           "She no longer thinks you're still on a page you already left."
         ]
       }
     ],
     "data_safety": "Your chats, memory, notes, portfolio and settings stay exactly as they are. This update only replaces the app's own program files. Nothing you have created is touched or deleted."
   },
-  "published_at": "2026-08-02T18:30:00Z",
+  "published_at": "2026-08-02T21:00:00Z",
   "download_url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/latest",
-  "manifest_url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.10/manifest-1.0.10.json",
+  "manifest_url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.11/manifest-1.0.11.json",
   "delta": {
-    "1.0.9": {
-      "url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.10/delta-1.0.9-to-1.0.10.zip",
-      "size": 108615846
+    "1.0.10": {
+      "url": "https://github.com/SURAJVERMA-BIT/ella-zero-releases/releases/download/v1.0.11/delta-1.0.10-to-1.0.11.zip",
+      "size": 108606946
     }
   }
 }
